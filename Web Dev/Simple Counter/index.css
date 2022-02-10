@@ -1,0 +1,31 @@
+body{
+	background-color: #FFEDDB;
+	text-align: center;
+	color: #F3950D;
+	margin: 0;
+	font-family: cursive;	
+}
+
+h1{
+	font-size: 5rem;
+	margin-bottom: 10px;
+}
+button{
+	font-size: 3rem;
+	border: 0;
+	border-radius: 10px;
+	background-color: #FFEDDB;
+	margin: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 10px 10px 10px #BF9270, -10px -10px 10px #E3B7A0;
+}
+button:active{
+	box-shadow: inset -6px -6px 10px grey, inset 6px 6px 10px white;
+
+}
+button:hover{
+	background-color: #BF9270;
+	box-shadow: 10px 10px 10px #BF9270, -10px -10px 10px #E3B7A0;
+	
+}
